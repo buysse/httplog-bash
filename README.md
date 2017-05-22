@@ -21,6 +21,7 @@ httplog "Test message" ERROR return_code=$? output="$output"
 
 # Send the full contents of a file
 httplog_file_contents /tmp/output.log WARNING 
+```
 
 # License
 
